@@ -1,7 +1,7 @@
 %define rname feedparser
 %define name ruby-%{rname}
 %define version 0.3
-%define release %mkrel 1
+%define release %mkrel 2
 
 Summary:	RSS and Atom parser for Ruby
 Name:		%{name}
@@ -10,7 +10,7 @@ Release:	%{release}
 URL:		http://home.gna.org/ruby-feedparser/
 Source0:	http://download.gna.org/ruby-feedparser/%{name}-%{version}.tar.bz2
 License:	Ruby or GPL
-Group:		Development/Other
+Group:		Development/Ruby
 BuildRoot:	%{_tmppath}/%{name}-buildroot
 BuildArch:	noarch
 BuildRequires:	ruby-rake graphviz
