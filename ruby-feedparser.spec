@@ -1,7 +1,7 @@
 %define rname feedparser
 %define name ruby-%{rname}
-%define version 0.3
-%define release %mkrel 2
+%define version 0.4
+%define release %mkrel 1
 
 Summary:	RSS and Atom parser for Ruby
 Name:		%{name}
@@ -35,7 +35,7 @@ ruby setup.rb setup
 rake rdoc
 
 %check
-#rake test
+rake test
 
 %install
 rm -rf %buildroot
