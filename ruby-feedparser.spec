@@ -11,6 +11,7 @@ URL:		http://home.gna.org/ruby-feedparser/
 Source0:	http://download.gna.org/ruby-feedparser/%{name}-%{version}.tar.bz2
 License:	Ruby or GPL
 Group:		Development/Ruby
+BuildRoot:	%{_tmppath}/%{name}-buildroot
 BuildArch:	noarch
 BuildRequires:	ruby-rake graphviz
 
