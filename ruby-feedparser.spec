@@ -7,7 +7,7 @@ Summary:	RSS and Atom parser for Ruby
 Name:		%{name}
 Version:	%{version}
 Release:	%{release}
-URL:		http://home.gna.org/ruby-feedparser/
+URL:		https://home.gna.org/ruby-feedparser/
 Source0:	http://download.gna.org/ruby-feedparser/%{name}-%{version}.tar.bz2
 License:	Ruby or GPL
 Group:		Development/Ruby
